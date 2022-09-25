@@ -35,11 +35,9 @@ export const filterSlice = createSlice({
 
 export const { changeFilter } = filterSlice.actions;
 
-//Selectors
 const getContacts = state => state.items.contacts;
 const getFilterValue = state => state.filter;
 
-//Hooks
 export const useContacts = () => {
   const dispatch = useDispatch();
   const contacts = useSelector(getContacts);

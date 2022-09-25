@@ -3,7 +3,7 @@ import { Container, Title, ContcTitle, Section } from './Phonebook.styled';
 import { ContactForm } from './contactForm/ContactForm';
 import { Filter } from './filter/Filter';
 import { ContactList } from './contactList/ContactList';
-import { useContacts } from './redux/Slices';
+import { useContacts } from 'redux/Slices'
 
 // const LS_KEY = 'contacts';
 export function App() {
